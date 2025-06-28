@@ -85,20 +85,24 @@ function RequestMain() {
     <div className="sectionWrap" style={{ backgroundImage: `url(${bgImg})` }}>
       <div className="description">
         <p className="decorNum">7</p>
+        <p>результат видно лише в мене при запуску сервера на порту :5058</p>
         <h2>
           useDeferredValue() <br /> new AbortController() + useRef() <br />
           (signal / abort ()) <br />q =
           &#123;encodeURIComponent(deferredQuery)&#125;
         </h2>
+
         <div>
           <p>Відобразити товар з назвами що вводять в поіск</p>
           <p>Зробити запит на BK</p>
+          <h3>порт :5058</h3>
           <p>скасувати не потрібні запити</p>
         </div>
       </div>
 
       <div className="solution" id="4994499049">
         <div>
+          <h3>порт :5058</h3>
           <h2>useDeferredValue(inputValue)</h2>
           <label htmlFor={inputId}>Назва товара</label>
           <input
@@ -155,6 +159,9 @@ function RequestMain() {
             abort() <br />
             encodeURIComponent()
           </h2>
+
+          <h3>порт :5058</h3>
+
           <label htmlFor={inputSecond}>Назва товара</label>
           <input
             id={inputSecond}

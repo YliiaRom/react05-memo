@@ -18,11 +18,15 @@
   transition: filter 300ms;
 }
 h1 {
+  padding-left: 20px;
   font-size: 14px;
   font-weight: 900;
   background: linear-gradient(90deg, #f3caa1, rgb(167, 232, 167));
   -webkit-background-clip: text;
   color: transparent;
+  text-align: right;
+  margin: 0 auto;
+  max-width: 90%;
 }
 h2 {
   padding: 0;
