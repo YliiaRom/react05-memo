@@ -1,0 +1,16 @@
+.productsBox {
+  padding: 5px;
+  width: 90%;
+
+  box-shadow: -3px -3px 6px #827e7e, 2px 2px 4px #999;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  border-radius: 15px;
+}
+.productsBox li {
+  padding: 20px 3px;
+  box-shadow: -3px -3px 6px #827e7e, 2px 2px 4px #999;
+  border-radius: 5px;
+}
