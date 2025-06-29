@@ -17,6 +17,7 @@ import DataGrid from "./components/DataGrid/DataGrid";
 import WindowSize from "./components/WindiwSize/WindiwSize";
 import Debounce from "./components/Debounce/Debounce";
 import HomeTaskSlider from "./components/HomeTaskSlider/HomeTaskSlider";
+import FetchComp from "./components/FetchComp/FetchComp";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
       <CustomInputHookBody />
       <LoсalStorageAndCustomHook />
       <NetworkStatusIndicator />
+      <FetchComp />
     </>
   );
 }
