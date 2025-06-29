@@ -13,7 +13,7 @@ function FilterAndSearchWithDeferred({ list }) {
   console.log("--- render  FilterAndSearchWithDeferred---");
   return (
     <>
-      <h2>Вікорістовуеться фільтрація з useDeferredValue() = не тормозить</h2>
+      <h2>Використовується фільтр з useDeferredValue() = не тормозить</h2>
       <label htmlFor={inputID}>Введіть дначення для фільтрації</label>
       <input
         type="text"
