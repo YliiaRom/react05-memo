@@ -17,9 +17,9 @@
   height: var(--height);
   position: absolute;
   left: 100%;
-  animation: autoRun 15s linear infinite;
+  animation: autoRun 20s linear infinite;
   border-radius: 5px;
-  animation-delay: calc(15s / var(--quantity) * (var(--position) - 1));
+  animation-delay: calc(20s / var(--quantity) * (var(--position) - 1));
   overflow: hidden;
   border-radius: 10px;
 }

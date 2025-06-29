@@ -12,6 +12,8 @@ import CustomInputHookBody from "./components/CustomInputHook/CustomInputHookBod
 import LoсalStorageAndCustomHook from "./components/LocalStorageAndCustomHook/LocalStorageAndCustomHook";
 import NetworkStatusIndicator from "./components/OnlineStatus/NetworkStatusIndicator";
 import Ollimg from "./components/OllImg/OllImg";
+import Calculator from "./components/Calculator/Calculator";
+import DataGrid from "./components/DataGrid/DataGrid";
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
         <br /> (signal, abort()), <br />
         encodeURLComponent(),
       </h1>
+      <Calculator />
       <Ollimg />
+      <DataGrid />
       <TestId />
       <GeneratorMain />
       <LenghtGenerator />

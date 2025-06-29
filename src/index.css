@@ -103,6 +103,7 @@ button {
   border-radius: 999px;
   width: 100%;
   transition: 0.3s;
+  margin-bottom: 15px;
 }
 button:hover {
   background: radial-gradient(circle, #2f431f, #1b1d1b);

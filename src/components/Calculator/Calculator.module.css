@@ -1,0 +1,48 @@
+.calculatorBox {
+  width: 90%;
+  margin: 0 auto;
+
+  padding: 50px 12px;
+  background: linear-gradient(0deg, #999, #fff, #999);
+  box-shadow: -2px -2px 3px #fff, 2px 2px 4px #000, 0px 5px 10px #000;
+
+  border-radius: 5px;
+}
+.result {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  width: 70%;
+  margin: 0 auto;
+
+  padding: 10px 12px;
+  /* border: 1px solid #000; */
+  border-radius: 10px;
+  margin-bottom: 12px;
+
+  color: #787878;
+  background: linear-gradient(0deg, #999, #fff, #999);
+  text-shadow: 0px 1px 0px #100202, 0px 2px 1px #4d4b4b;
+  box-shadow: inset -3px -3px 6px 3px #dad6d6, inset 7px 0px 7px 0px #4b4a4a,
+    inset -6px -6px 10px 2px #000, inset 3px 3px 6px 3px #dad6d6;
+}
+.numBox {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 7px;
+
+  padding: 10px;
+  box-shadow: -2px -2px 3px #fff, 2px 2px 3px #999;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.numBox div {
+  box-shadow: -2px -2px 4px #fff, 2px 2px 4px #999;
+}
+.numBox div > input {
+  max-width: 40px;
+  border-radius: 3px;
+}

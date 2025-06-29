@@ -11,7 +11,7 @@ function LoсalStorageAndCustomHook() {
   return (
     <div className="sectionWrap" style={{ backgroundImage: `url(${bgImg})` }}>
       <div className="description">
-        <p className="decorNum">10</p>
+        <p className="decorNum">9</p>
         <h2>useLocalStorage("appTheme", "light")</h2>
         <div>
           <p>LocalStorage </p>

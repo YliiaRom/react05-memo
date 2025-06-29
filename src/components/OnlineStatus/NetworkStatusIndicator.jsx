@@ -7,7 +7,7 @@ function NetworkStatusIndicator() {
   return (
     <div className="sectionWrap" style={{ backgroundImage: `url(${bgImg})` }}>
       <div className="description">
-        <p className="decorNum">1</p>
+        <p className="decorNum">10</p>
         <h2>
           use... -Custom Hook <br />
           useOnlineStatus()
