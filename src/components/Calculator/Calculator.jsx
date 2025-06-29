@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import bgImg from "../../assets/img/idPlusInput.jpg";
+import bgImg from "../../assets/img/calc.jpg";
 import styles from "./Calculator.module.css";
 import { useInputByNumber } from "../helpers/customHook.js";
 import ResultDisplay from "./ResultDisplay.jsx";
@@ -22,7 +22,13 @@ function Calculator() {
     <div className="sectionWrap" style={{ backgroundImage: `url(${bgImg})` }}>
       <div className="description">
         <p className="decorNum">1</p>
-        <h2>калькулятор</h2>
+        <h2>
+          калькулятор <br />
+          custom hook
+          <br />
+          memo <br />
+          useMemo
+        </h2>
         <div>
           <p>Оптимізація вибіркового рендеру з useMemo та React.memo</p>
         </div>

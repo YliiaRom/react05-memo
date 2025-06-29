@@ -1,0 +1,19 @@
+.iconSize span {
+  display: block;
+  width: 60px;
+  font-size: 60px;
+}
+.iconSize {
+  display: inline-block;
+  margin: 0 auto;
+
+  animation: rotateEl 1.5s linear infinite alternate;
+}
+@keyframes rotateEl {
+  from {
+    transform: rotate(25deg);
+  }
+  to {
+    transform: rotate(-25deg);
+  }
+}

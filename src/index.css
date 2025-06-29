@@ -120,6 +120,7 @@ button:hover {
   border-radius: 5px;
   background: transparent;
   backdrop-filter: blur(5px);
+  margin-bottom: 12px;
 }
 .decorNum {
   font-size: 14px;

@@ -14,6 +14,9 @@ import NetworkStatusIndicator from "./components/OnlineStatus/NetworkStatusIndic
 import Ollimg from "./components/OllImg/OllImg";
 import Calculator from "./components/Calculator/Calculator";
 import DataGrid from "./components/DataGrid/DataGrid";
+import WindowSize from "./components/WindiwSize/WindiwSize";
+import Debounce from "./components/Debounce/Debounce";
+import HomeTaskSlider from "./components/HomeTaskSlider/HomeTaskSlider";
 
 function App() {
   return (
@@ -31,9 +34,13 @@ function App() {
         <br /> (signal, abort()), <br />
         encodeURLComponent(),
       </h1>
+
       <Calculator />
       <Ollimg />
       <DataGrid />
+      <WindowSize />
+      <Debounce />
+      <HomeTaskSlider />
       <TestId />
       <GeneratorMain />
       <LenghtGenerator />

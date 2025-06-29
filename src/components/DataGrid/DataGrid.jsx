@@ -1,5 +1,5 @@
 import { useCallback, useDeferredValue, useMemo, useState } from "react";
-import bgImg from "../../assets/img/idPlusInput.jpg";
+import bgImg from "../../assets/img/grid.jpg";
 import GridRow from "./GridRow";
 import { useInput } from "../CustomInputHook/useInput";
 const arrData = Array.from({ length: 3000 }, (_, i) => ({
